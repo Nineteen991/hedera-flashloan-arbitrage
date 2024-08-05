@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import Header from './components/Header'
+import SaucerSwap from './components/SaucerSwap'
 import './App.css'
 
 function App() {
-
   return (
     <div className='container'>
-      howdy
+      <Header />
+      <SaucerSwap />
     </div>
   )
 }
